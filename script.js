@@ -30,7 +30,7 @@ createBtn.addEventListener("click", () => {
 
     inputBox.className = "input-box";
     inputBox.setAttribute("contenteditable", "true");
-    img.src = "/notes-app-img/images/delete.png";
+    img.src = "delete.png";
 
     // Add delete and update listeners
     img.addEventListener("click", () => {
